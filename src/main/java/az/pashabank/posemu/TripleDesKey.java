@@ -47,7 +47,5 @@ public class TripleDesKey {
             sb.append(this.keyC);
         }
         return sb.toString();
-    }
-    
-    
+    }        
 }

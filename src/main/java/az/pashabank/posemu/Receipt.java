@@ -18,8 +18,6 @@ public class Receipt {
     private final String fld_039;
     private final String date;
     
-
-
     
     public Receipt(String card, String amount, String rrn, String fld_039, String date) {
         this.card = card;
@@ -53,7 +51,5 @@ public class Receipt {
     public String toString() {
         return "Receipt{" + "card=" + card + ", amount=" + amount + ", rrn=" + rrn + ", fld_039=" + fld_039 + ", date=" + date + '}';
     }
-    
-    
     
 }
